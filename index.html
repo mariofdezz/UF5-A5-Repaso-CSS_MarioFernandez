@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla flexbox</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <div class="tabla-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Juego y Niveles</th>
+                    <th>Declaración</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Froggy:1</td>
+                    <td>justify-content:end;</td>
+                    <td>Alinea los elementos en el centro del contenedor</td>
+                </tr>
+                <tr>
+                    <td>Froggy:2</td>
+                    <td>justify-content:center;</td>
+                    <td>Alinea los elementos en el extremo final del contenedor</td>
+                </tr>
+                <tr>
+                    <td>Froggy:3</td>
+                    <td>justify-content:space-around;</td>
+                    <td>Distribuye los elementos a lo largo del eje principal del contenedor con un espacio entre ellos</td>
+                </tr>
+                <tr>
+                    <td>Froggy:4</td>
+                    <td>justify-content:space-between;</td>
+                    <td>Distribuye los elementos a lo largo del eje principal del contenedor con un espacio entre ellos, pero sin espacio antes del primer elemento y después del último elemento</td>
+                </tr>
+                <tr>
+                    <td>Froggy:5</td>
+                    <td>align-items:end;</td>
+                    <td>Es una propiedad útil para controlar la alineación de los elementos secundarios dentro de un contenedor, colocándolos en el extremo final del contenedor</td>
+                </tr>
+                <tr>
+                    <td>Froggy:6</td>
+                    <td>justify-content:center;align-items:center;</td>
+                    <td>Son propiedades muy útiles para centrar elementos tanto horizontal como verticalmente dentro de un contenedor</td>
+                </tr>
+                <tr>
+                    <td>Froggy:7</td>
+                    <td>align-items: end;justify-content:space-around;</td>
+                    <td>Se utilizan juntas para alinear los elementos secundarios en el extremo final del contenedor y distribuir el espacio restante alrededor de ellos a lo largo del contenedor</td>
+                </tr>
+                <tr>
+                    <td>Froggy:8</td>
+                    <td>flex-direction:row-reverse;</td>
+                    <td>Es una propiedad útil para cambiar la dirección de disposición de los elementos secundarios dentro de un contenedor de izquierda a derecha a derecha e izquierda</td>
+                </tr>
+                <tr>
+                    <td>Froggy:9</td>
+                    <td>flex-direction:column;</td>
+                    <td>Es una propiedad útil para colocar elementos de arriba hacia abajo dentro de un contenedor</td>
+                </tr>
+                <tr>
+                    <td>Froggy:10</td>
+                    <td>justify-content:start;flex-direction:row-reverse;</td>
+                    <td>Se utilizan para alinear los elementos secundarios en filas de derecha a izquierda y alineados al inicio</td>
+                </tr>
+                <tr>
+                    <td>Froggy:11</td>
+                    <td>justify-content:end;flex-direction:column;align-items:start;</td>
+                    <td>Se utilizan juntas para alinear y distribuir los elementos en columnas, con los elementos alineados al final y al inicio del contenedor</td>
+                </tr>
+                <tr>
+                    <td>Froggy:12</td>
+                    <td>justify-content:end;flex-direction:column-reverse;justify-content:space-between;</td>
+                    <td>Los elementos se alinean en la parte inferior del contenedor, se organicen en columnas en orden inverso, y se distribuye espacio entre ellos</td>
+                </tr>
+                <tr>
+                    <td>Froggy:13</td>
+                    <td>justify-content:center;flex-direction:row-reverse;align-items:end;</td>
+                    <td>Los elementos secundarios se distribuyen horizontalmente en el centro del contenedor, se organizan de derecha a izquierda, y se alinean en la parte inferior del contenedor</td>
+                </tr>
+                <tr>
+                    <td>Froggy:14</td>
+                    <td>order:1;</td>
+                    <td>Sirve para cambiar el orden con el elemento de la derecha</td>
+                </tr>
+                <tr>
+                    <td>Froggy:15</td>
+                    <td>order:-3;</td>
+                    <td>Sirve para cambiar el orden tres veces con el elemento de la izquierda</td>
+                </tr>
+                <tr>
+                    <td>Froggy:16</td>
+                    <td>align-self:end;</td>
+                    <td>El elemento se colocará en la parte inferior si el eje transversal es vertical o a la derecha si el eje transversal es horizontal</td>
+                </tr>
+                <tr>
+                    <td>Froggy:17</td>
+                    <td>order:1;align-self:end;</td>
+                    <td>El elemento secundario al que se aplican estas propiedades se reubicará al final del orden de visualización y se alineará en el extremo del contenedor</td>
+                </tr>
+                <tr>
+                    <td>Froggy:18</td>
+                    <td>flex-wrap:wrap;</td>
+                    <td>Es una propiedad útil para controlar cómo se envuelven los elementos secundarios dentro de un contenedor flexible, permitiendo diseños más flexibles y adaptables en una variedad de contextos de diseño web</td>
+                </tr>
+                <tr>
+                    <td>Froggy:19</td>
+                    <td>flex-direction:column;flex-wrap:wrap;</td>
+                    <td>Se utilizan para crear un diseño flexible en forma de columnas donde los elementos pueden envolverse en líneas adicionales según sea necesario para adaptarse al tamaño del contenedor</td>
+                </tr>
+                <tr>
+                    <td>Froggy:20</td>
+                    <td>flex-wrap:wrap;</td>
+                    <td>Es una propiedad útil para controlar cómo se envuelven los elementos secundarios dentro de un contenedor flexible, permitiendo diseños más flexibles y adaptables en una variedad de contextos de diseño web</td>
+                </tr>
+                <tr>
+                    <td>Froggy:21</td>
+                    <td>align-content:flex-start;</td>
+                    <td>Se utiliza para alinear el contenido en el extremo inicial del eje transversal de un contenedor flexible, lo que permite controlar la distribución del espacio</td>
+                </tr>
+                <tr>
+                    <td>Froggy:22</td>
+                    <td>align-content:flex-start;</td>
+                    <td>Alinea estas filas para que comiencen desde la parte superior del contenedor</td>
+                </tr>
+                <tr>
+                    <td>Froggy:23</td>
+                    <td>flex-direction:column-reverse;align-content:center;</td>
+                    <td>Se utilizan juntas para crear un diseño en el que los elementos se organicen en columnas en orden inverso y se alineen verticalmente en el centro del contenedor flexible</td>
+                </tr>
+                <tr>
+                    <td>Froggy:24</td>
+                    <td>flex-wrap:wrap-reverse;flex-direction:column-reverse;justify-content:center;align-content:space-between;</td>
+                    <td>Crea un diseño en el que los elementos se organizan en columnas en orden inverso, con envoltura inversa, y se alinean horizontalmente en el centro del contenedor, con un espaciado uniforme entre y alrededor de las líneas de elementos</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+        <table>
+<body>
+</html>
